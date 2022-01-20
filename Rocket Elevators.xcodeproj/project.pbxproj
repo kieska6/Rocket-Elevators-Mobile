@@ -18,6 +18,11 @@
 		B244CA7C278CB24E00C25490 /* Rocket_ElevatorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B244CA7B278CB24E00C25490 /* Rocket_ElevatorsUITests.swift */; };
 		B244CA7E278CB24E00C25490 /* Rocket_ElevatorsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B244CA7D278CB24E00C25490 /* Rocket_ElevatorsUITestsLaunchTests.swift */; };
 		B244CA8C278D4D3100C25490 /* Turbo in Frameworks */ = {isa = PBXBuildFile; productRef = B244CA8B278D4D3100C25490 /* Turbo */; };
+		B28334962799F1A300516720 /* Application in Resources */ = {isa = PBXBuildFile; fileRef = B28334952799F1A300516720 /* Application */; };
+		B283349B2799F1B900516720 /* Storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B28334972799F1B900516720 /* Storyboard */; };
+		B283349C2799F1B900516720 /* Models in Resources */ = {isa = PBXBuildFile; fileRef = B28334982799F1B900516720 /* Models */; };
+		B283349D2799F1B900516720 /* Utilities in Resources */ = {isa = PBXBuildFile; fileRef = B28334992799F1B900516720 /* Utilities */; };
+		B283349E2799F1B900516720 /* ViewControllers in Resources */ = {isa = PBXBuildFile; fileRef = B283349A2799F1B900516720 /* ViewControllers */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,11 @@
 		B244CA77278CB24E00C25490 /* Rocket ElevatorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rocket ElevatorsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B244CA7B278CB24E00C25490 /* Rocket_ElevatorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rocket_ElevatorsUITests.swift; sourceTree = "<group>"; };
 		B244CA7D278CB24E00C25490 /* Rocket_ElevatorsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rocket_ElevatorsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B28334952799F1A300516720 /* Application */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Application; path = "../../Api Integration/Api Integration/Application"; sourceTree = "<group>"; };
+		B28334972799F1B900516720 /* Storyboard */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Storyboard; path = "../../Api Integration/Api Integration/Storyboard"; sourceTree = "<group>"; };
+		B28334982799F1B900516720 /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Models; path = "../../Api Integration/Api Integration/Models"; sourceTree = "<group>"; };
+		B28334992799F1B900516720 /* Utilities */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Utilities; path = "../../Api Integration/Api Integration/Utilities"; sourceTree = "<group>"; };
+		B283349A2799F1B900516720 /* ViewControllers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ViewControllers; path = "../../Api Integration/Api Integration/ViewControllers"; sourceTree = "<group>"; };
 		B459ED6C6D9AC6F7638FF94F /* Pods-Rocket ElevatorsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket ElevatorsTests.debug.xcconfig"; path = "Target Support Files/Pods-Rocket ElevatorsTests/Pods-Rocket ElevatorsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DA0289FF5323E17FAF925ADE /* Pods-Rocket Elevators-Rocket ElevatorsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket Elevators-Rocket ElevatorsUITests.debug.xcconfig"; path = "Target Support Files/Pods-Rocket Elevators-Rocket ElevatorsUITests/Pods-Rocket Elevators-Rocket ElevatorsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,6 +123,11 @@
 		B244CA5F278CB24B00C25490 /* Rocket Elevators */ = {
 			isa = PBXGroup;
 			children = (
+				B28334982799F1B900516720 /* Models */,
+				B28334972799F1B900516720 /* Storyboard */,
+				B28334992799F1B900516720 /* Utilities */,
+				B283349A2799F1B900516720 /* ViewControllers */,
+				B28334952799F1A300516720 /* Application */,
 				B244CA60278CB24B00C25490 /* Rocket_ElevatorsApp.swift */,
 				B244CA62278CB24B00C25490 /* ContentView.swift */,
 				B244CA64278CB24D00C25490 /* Assets.xcassets */,
@@ -156,7 +171,6 @@
 				B459ED6C6D9AC6F7638FF94F /* Pods-Rocket ElevatorsTests.debug.xcconfig */,
 				5CC7AE10429EA3A4509C806E /* Pods-Rocket ElevatorsTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -285,8 +299,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B283349C2799F1B900516720 /* Models in Resources */,
+				B283349D2799F1B900516720 /* Utilities in Resources */,
+				B28334962799F1A300516720 /* Application in Resources */,
+				B283349E2799F1B900516720 /* ViewControllers in Resources */,
 				B244CA68278CB24D00C25490 /* Preview Assets.xcassets in Resources */,
 				B244CA65278CB24D00C25490 /* Assets.xcassets in Resources */,
+				B283349B2799F1B900516720 /* Storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,7 +8,7 @@
 import SwiftUI
 import UIKit
 import Foundation
-import Alamofire
+
 
 struct ContentView: View {
     @State private var emailInput = ""
@@ -49,26 +49,13 @@ struct ContentView: View {
             }.navigationBarHidden(true)
         }
     }
-
-    func authenticateUser(emailInput: String) {
-        if url == "true" {
-            wrongEmail = 0
-        } else {
-            wrongEmail = 2
-        }
-    }
 }
+
 
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let email123 = "karl_kieran@yahoo.fr"
-        let url = URL(string: "https://rocket-ele.herokuapp.com/api/employees/emailValidation/?email=\(email123)")
-        guard url != nil else {
-            print("Error please enter a correct email")
-        }
-        print(url)
         
     }
 }
@@ -78,3 +65,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
