@@ -14,6 +14,7 @@
 		B244CA72278CB24E00C25490 /* Rocket_ElevatorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B244CA71278CB24E00C25490 /* Rocket_ElevatorsTests.swift */; };
 		B244CA7C278CB24E00C25490 /* Rocket_ElevatorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B244CA7B278CB24E00C25490 /* Rocket_ElevatorsUITests.swift */; };
 		B244CA7E278CB24E00C25490 /* Rocket_ElevatorsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B244CA7D278CB24E00C25490 /* Rocket_ElevatorsUITestsLaunchTests.swift */; };
+		B244CA8C278D4D3100C25490 /* Turbo in Frameworks */ = {isa = PBXBuildFile; productRef = B244CA8B278D4D3100C25490 /* Turbo */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B244CA8C278D4D3100C25490 /* Turbo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = "Rocket Elevators";
+			packageProductDependencies = (
+				B244CA8B278D4D3100C25490 /* Turbo */,
+			);
 			productName = "Rocket Elevators";
 			productReference = B244CA5D278CB24B00C25490 /* Rocket Elevators.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = B244CA54278CB24B00C25490;
+			packageReferences = (
+				B244CA8A278D4D3000C25490 /* XCRemoteSwiftPackageReference "turbo-ios" */,
+			);
 			productRefGroup = B244CA5E278CB24B00C25490 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -579,6 +587,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B244CA8A278D4D3000C25490 /* XCRemoteSwiftPackageReference "turbo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hotwired/turbo-ios";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B244CA8B278D4D3100C25490 /* Turbo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B244CA8A278D4D3000C25490 /* XCRemoteSwiftPackageReference "turbo-ios" */;
+			productName = Turbo;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B244CA55278CB24B00C25490 /* Project object */;
 }
