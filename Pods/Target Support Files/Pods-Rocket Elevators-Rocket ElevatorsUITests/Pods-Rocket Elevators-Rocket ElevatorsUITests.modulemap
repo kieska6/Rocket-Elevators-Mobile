@@ -1,0 +1,6 @@
+framework module Pods_Rocket_Elevators_Rocket_ElevatorsUITests {
+  umbrella header "Pods-Rocket Elevators-Rocket ElevatorsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

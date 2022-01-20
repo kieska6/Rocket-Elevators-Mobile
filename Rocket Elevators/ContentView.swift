@@ -8,7 +8,7 @@
 import SwiftUI
 import UIKit
 import Foundation
-
+import Alamofire
 
 struct ContentView: View {
     @State private var emailInput = ""
